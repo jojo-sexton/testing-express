@@ -1,3 +1,3 @@
 # testing-express
 create express app from scratch and testing it
-# run npm start to run http://localhost:3000/
+# type "npm start" to start the server http://localhost:3000/
