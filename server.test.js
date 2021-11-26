@@ -23,3 +23,19 @@ test('will greet person by name', () =>{
 
 })
 })
+
+//test the POST route
+describe ('POST', () =>{
+
+    test('prints the name of person posted', () =>{
+        expect.assertions(1)
+        return request(server)
+        .post('/postForm')
+        .send('manamana=jojo')
+        .then(res =>{
+            expect(res.text).toEqual('Hi jojo')
+        })
+    }
+    )
+}
+)
