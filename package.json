@@ -4,8 +4,8 @@
   "description": "creat express app from scratch and test the server",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "test": "jest --watchAll",
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
     "supertest": "^6.1.6"
   }
 }
