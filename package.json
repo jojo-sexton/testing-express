@@ -1,0 +1,30 @@
+{
+  "name": "testing-express",
+  "version": "1.0.0",
+  "description": "creat express app from scratch and test the server",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jojo-sexton/testing-express.git"
+  },
+  "keywords": [
+    "express",
+    "test"
+  ],
+  "author": "jojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jojo-sexton/testing-express/issues"
+  },
+  "homepage": "https://github.com/jojo-sexton/testing-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}

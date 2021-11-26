@@ -1,0 +1,2 @@
+const server = require('./server')
+server.app.listen(3000) // i don't know why in JV's code he doesn't have to add .app , but if i don't add .app, there will be an error come up as "server.listen is not a function"?
